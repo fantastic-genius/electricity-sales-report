@@ -54,10 +54,8 @@ class Admin extends CI_Controller
         redirect('admin/settings');
       }
 
-      $this->data = array(
-        'tev' => $this->user->get_settings_val('total_energy_vendable'),
-        'price' => $this->user->get_settings_val('price'),
-      );
+      $this->data['tev'] = $this->user->get_settings_val('total_energy_vendable');
+      $this->data['price'] = $this->user->get_settings_val('price');
 
 
       $this->load->view('admin/common/header', $this->data);
