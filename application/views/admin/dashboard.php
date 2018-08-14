@@ -18,12 +18,12 @@
               <span class="info-box-text">Total Energy Vendabe</span>
               <span class="info-box-number"><?php echo $tev; ?></span>
 
-              <div class="progress">
+              <!--div class="progress">
                 <div class="progress-bar" style="width: 70%"></div>
               </div>
                   <span class="progress-description">
                     70% Increase in 30 Days
-                  </span>
+                  </span-->
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -38,12 +38,12 @@
               <span class="info-box-text">Energy Balance</span>
               <span class="info-box-number"><?php echo $energy_balance; ?></span>
 
-              <div class="progress">
+              <!--div class="progress">
                 <div class="progress-bar" style="width: 70%"></div>
               </div>
                   <span class="progress-description">
                     70% Increase in 30 Days
-                  </span>
+                  </span-->
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -56,14 +56,14 @@
 
             <div class="info-box-content">
               <span class="info-box-text">Total Enegy Vended Today</span>
-              <span class="info-box-number"><?php echo $total_energy_vended; ?></span>
+              <span class="info-box-number"><?php //echo $total_energy_vended; ?></span>
 
-              <div class="progress">
+              <!--div class="progress">
                 <div class="progress-bar" style="width: 70%"></div>
               </div>
                   <span class="progress-description">
                     70% Increase in 30 Days
-                  </span>
+                  </span-->
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -78,12 +78,12 @@
               <span class="info-box-text">Total Amount</span>
               <span class="info-box-number"><?php echo $total_amount; ?></span>
 
-              <div class="progress">
+              <!--div class="progress">
                 <div class="progress-bar" style="width: 70%"></div>
               </div>
                   <span class="progress-description">
                     70% Increase in 30 Days
-                  </span>
+                  </span-->
             </div>
             <!-- /.info-box-content -->
           </div>
