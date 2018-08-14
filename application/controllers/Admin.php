@@ -20,6 +20,13 @@ class Admin extends CI_Controller
 
   public function index(){
     if(is_user_login($this)){
+      $this->data['reports'] = $this->user->get_report();
+      $this->data['tev'] = $this->user->get_settings_val('total_energy_vendable');
+      $this->data['energy_balance'] = $this->user->get_settings_val('energy_balance');
+      $this->data['total_amount'] = $this->user->get_total('amount');
+      $today = date('Y-m-d H:i:s');
+      $condition = "otd = ". $today;
+      //$this->data['total_energy_vended'] = $this->user->get_total('energy_vended', $condition  );
 
       $this->load->view('admin/common/header', $this->data);
       $this->load->view('admin/common/sidebar');
